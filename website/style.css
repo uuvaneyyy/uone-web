@@ -286,5 +286,53 @@ form input:focus{
     background: #fff;
     color: #ff7200;
 }
+@media screen and (max-width: 768px) {
+
+    .main {
+        width: 100%;
+        min-height: 100vh;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .icon {
+        width: auto;
+        float: none;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu ul li {
+        margin: 5px;
+    }
+
+    .search {
+        position: static;
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    .srch {
+        width: 150px;
+    }
+
+    .content {
+        width: 100%;
+        padding: 20px;
+    }
+}
 
 
